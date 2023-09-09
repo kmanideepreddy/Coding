@@ -1,0 +1,63 @@
+/* Styles for the header and navbar */
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.Twdhjmc39nK-3MzNTtBvFgHaEK?pid=ImgDet&rs=1");
+  
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 23px 23px;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav li {
+    display: inline-block;
+    margin-right: 80px;
+    }
+    
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    nav a:hover {
+    background-color: aquamarine;
+    color:red;
+    }
+    
+    /* Styles for the hero section */
+    .hero {
+    text-align: center;
+    }
+    
+    .hero img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    padding-bottom: 40px;
+    }
+    
+    .hero h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    }
+    /* Styles for the footer */
+    footer {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+    }
+    #heading{
+        color:aliceblue;
+    
+    }
+    #taj{
+        border-radius: 20px;
+        position:relative;
+        width:auto;
+    }
