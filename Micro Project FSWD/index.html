@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Taj Mahal Website</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+    <style>
+        nav {
+          position: fixed;
+          top: 0;
+          width: 100%;
+          background-color: #fff;
+          z-index: 999;
+        }
+        
+        nav ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          text-align: center;
+        }
+        
+        nav li {
+          display: inline-block;
+          margin-right: 20px;
+        }
+        
+        nav a {
+          display: block;
+          padding: 10px;
+          color: #333;
+          text-decoration: none;
+          font-size: 18px;
+          font-weight: bold;
+        }
+        
+        nav a:hover {
+          color: #000;
+        }
+        
+        @media only screen and (max-width: 768px) {
+          nav {
+            position: static;
+          }
+          
+          nav li {
+            display: block;
+            margin: 0;
+            margin-bottom: 10px;
+          }
+        }
+        </style>
+        
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+        
+</header>
+<main id="main">
+<section class="hero">
+
+<h1 id="heading">Welcome to the Taj Mahal</h1>
+<video width="640" height="360" autoplay="true">
+    <source src="2x.mp4" type="video/mp4">
+  </video>
+</section>
+</main>
+<footer>
+<p>&copy; 2023 Taj Mahal Website</p>
+</footer>
+</body>
+</html>
 
